@@ -10,9 +10,10 @@ export class Unsplash extends Component {
   
     return (
       <React.Fragment>
+         <Image />
+         <Logo />
         <Clock />
-        <Logo />
-        <Image />
+        
       </React.Fragment>
 
 

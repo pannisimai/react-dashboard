@@ -7,3 +7,15 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: -15px;
+}
+
+.App-logo{
+  margin-left: 95%;
+  margin-top: -280px;
+}
