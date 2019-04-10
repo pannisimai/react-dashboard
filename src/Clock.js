@@ -30,7 +30,7 @@ export default class Clock extends React.Component {
     return (
       <div className="container" style={{ color: this.state.color }}>
         <h1>
-          <span class="letters">
+          <span className="letters">
             <span>J</span>
             <span>e</span>
             <span>l</span>
