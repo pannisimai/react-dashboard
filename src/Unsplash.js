@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Clock from "./Clock";
 import Logo from "./Logo";
 import Image from "./Image";
-import logo from "./logo.svg";
 
 export class Unsplash extends Component {
   constructor(props) {
@@ -13,7 +12,7 @@ export class Unsplash extends Component {
   }
 
   DoUnsplash() {
-    fetch("https://source.unsplash.com/collection/190727/1600x900").then(
+    fetch("https://source.unsplash.com/collection/431862/1600x900").then(
       response => {
         this.setState({ url: response.url });
       }
