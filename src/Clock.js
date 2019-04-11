@@ -29,21 +29,6 @@ export default class Clock extends React.Component {
   render() {
     return (
       <div className="container" style={{ color: this.state.color }}>
-        <h1>
-          <span className="letters">
-            <span>J</span>
-            <span>e</span>
-            <span>l</span>
-            <span>l</span>
-            <span>o</span>
-            <span />
-            <span>W</span>
-            <span>o</span>
-            <span>r</span>
-            <span>l</span>
-            <span>d</span>
-          </span>
-        </h1>
         <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
       </div>
     );

@@ -1,12 +1,10 @@
 img {
-width: 100%;
-height: 100vh;
-position: absolute;
-
+  width: 100%;
+  height: 100vh;
+  position: absolute;
 }
 
 .App-logo {
-    width: 50px;
-    position: absolute;
-
+  width: 50px;
+  position: absolute;
 }
