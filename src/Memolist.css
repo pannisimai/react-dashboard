@@ -1,0 +1,12 @@
+button {
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.memo {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-left: 400px;
+  margin-top: 250px;
+  border-radius: 20px;
+}

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Clock from "./Clock";
 import Logo from "./Logo";
 import Image from "./Image";
+import Memolist from "./Memolist";
 
 export class Unsplash extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ export class Unsplash extends Component {
         <Image url={this.state.url} />
         <Logo handleChange={this.handleChange} />
         <Clock />
+        <Memolist />
         <p className="credits">Images: from unsplash.com</p>
       </React.Fragment>
     );
