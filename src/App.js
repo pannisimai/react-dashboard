@@ -1,24 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Unsplash from './Unsplash'
-import './App.css';
-import Clock from './Clock';
-
+import Unsplash from "./Unsplash";
+import "./App.css";
+import Clock from "./Clock";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        
-        
-        
-           
-           
-           <Unsplash />
-        
-        
+        <Unsplash />
       </React.Fragment>
-    )
+    );
   }
 }
 
