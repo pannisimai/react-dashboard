@@ -1,11 +1,10 @@
-<h1> React Dashboard </h1>
+# React Dashboard 
 
-A React dashboard app!
 
-Features:
+## Features:
 
-Dynamic Background API <br>
-Clock widget <br>
-TodoList widget <br>
+- Dynamic Background API 
+- Clock widget 
+- Todo-List widget 
 
 Demo: https://react-dashboard-4z46z0let.now.sh/
